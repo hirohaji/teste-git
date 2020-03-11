@@ -7,6 +7,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
+
 app.get('/teste',(req, res) => {
 	res.send("Oi teste "+req.query.id)});
 
